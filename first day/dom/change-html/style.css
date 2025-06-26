@@ -1,0 +1,9 @@
+div{
+    height: 300px;
+    width: 80%;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: large;
+    color: black;
+    text-align: center;
+}
