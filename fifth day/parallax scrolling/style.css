@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    background: white;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #359381;
+    pointer-events: none;
+
+}
+.nav{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+.nav a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight:600 ;
+
+}
+
+.nav a:hover,
+a.active{
+    background-color: #359381;
+    color:white ;
+}
+
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+#text{
+    position: absolute;
+    font-size: 5rem;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px   #00000073;
+
+}
+
+.parallax img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.sec{
+    position: relative;
+    background: #00382d;
+    color: white;
+    padding: 100px;
+    height: 100vh;
+
+}
+
+.sec h2{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+
+.sec p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}

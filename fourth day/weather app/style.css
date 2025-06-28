@@ -1,0 +1,162 @@
+body {
+    font-family: arial;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    width: 100%;
+    background-image: url(img/pexels-cmonphotography-1809644.jpg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.formw {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.weather {
+    margin: 20px;
+    right: 0px;
+}
+
+.cityinput {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: rgb(13, 116, 116);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    mix-blend-mode: lighten;
+    font-size: 1rem;
+    border: 1px solid;
+
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: rgb(131, 201, 201);
+    mix-blend-mode: lighten;
+    border: .5px solid rgb(131, 201, 201);
+    border-radius: 999px;
+    cursor: pointer;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    color: white;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 400px;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 7rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:rgba(209, 255, 255, 0.726);
+    letter-spacing: 1rem;
+    text-shadow: 0 0 20px rgba(172, 229, 255, 0.411), 0 0 56px rgba(172, 222, 255, 0.199);
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+
+}
+
+.emoji {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: rgba(35, 75, 75, 0.336);
+   backdrop-filter: blur(12px);
+   -webkit-backdrop-filter: blur(20px);
+   mix-blend-mode: lighten;
+   border-radius: 12px;
+   height: 350px;
+   width: 350px;
+   margin: 10px;
+       color: rgb(13, 116, 116); */
+
+    padding: 10px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: rgb(13, 116, 116);
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    mix-blend-mode: lighten;
+    font-size: 1rem;
+    border: 1px solid;
+
+   /* background-image: url(img/images.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;  */
+    box-shadow: inset 6px 0px 116px rgba(45, 132, 145, 0.493);
+
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+.desc{
+
+     color: rgba(0, 255, 255, 0.719);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 255, 255, 0.719);
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.emoji{
+    padding: 0;
+    margin: 0;
+}
